@@ -1,0 +1,21 @@
+<!-- 
+	Name: Rachael Bogdany
+	Date: 2/29/2020
+	Filename: index.html
+	ISTE340 Project 1
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Pick your cat!</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<script src="assets/js/index.js"></script>
+	<script type="text/javascript" src="assets/js/cookies.js"></script>
+</head>
+<body onload="getData('init')">
+	<img src="assets/img/cat.png" alt="cat" style="left: 330px"/>
+	<h1 onmouseover="clearInterval(inter);clearInterval(bk);inter = setInterval(function(){call('right');}, 10);" onmouseout="clearInterval(inter);clearInterval(bk);bk = setInterval(function(){call('left');}, 10);">Find Your Cat Breed:</h1>
+	<div id="container"></div>
+</body>
+</html> 

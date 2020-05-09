@@ -1,0 +1,34 @@
+/*
+  Name: Rachael Bogdany
+  Date: 2/29/2020
+  Filename: styles.css
+  ISTE340 Project 1
+*/
+body{
+	background-color: #fcc8c7;
+	font-family: 'Century Gothic', 'Times New Roman';
+}
+div{
+	margin: 25px;
+}
+h1{
+	margin: 25px;
+	width: 330px;
+}
+img[src="assets/img/cat.png"]{
+	display: none;
+	position: absolute;
+	top: 20px;
+}
+form{
+	padding: 20px;
+	border: 1px solid black;
+}
+h4{
+	padding-bottom: 15px;
+	margin: 0px;
+}
+#formresult{
+	padding: 20px;
+	border: 1px solid black;
+}
